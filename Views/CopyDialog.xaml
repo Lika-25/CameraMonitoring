@@ -1,0 +1,19 @@
+﻿<Window x:Class="CameraMonitoring.CopyDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Віддалений моніторинг" Height="150" Width="400" WindowStartupLocation="CenterOwner">
+    <StackPanel Margin="10">
+        <TextBlock Text="Адреса потоку:" FontWeight="Bold" Margin="0,0,0,10"/>
+        <TextBox x:Name="AddressTextBox" IsReadOnly="True" Text="http://localhost:8080/" Margin="0,0,0,10"/>
+        <Button Content="Скопіювати адресу" Click="CopyAddress_Click" Width="150" HorizontalAlignment="Center" RenderTransformOrigin="0.5,0.5" Height="21">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.87"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.151"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+    </StackPanel>
+</Window>

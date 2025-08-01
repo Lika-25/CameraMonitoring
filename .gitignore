@@ -1,0 +1,37 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+*.exe
+*.dll
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Others
+*.cache
+*.db
+*.pidb
+*.pdb
+*.mdb
+
+# Publish
+publish/
+
+*.ncrunch*
+*.vshost.*
+_ReSharper*/
+*.resharper
+*.sln.iml
+TestResults/
+*.tlog
+*.cachefile
